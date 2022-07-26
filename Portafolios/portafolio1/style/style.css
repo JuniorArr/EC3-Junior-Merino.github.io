@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: gainsboro;
+}
+
+#contenedor{
+	width: 960px;
+	margin:auto;
+	margin-top: 20px;
+	border-radius: 20px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+header{
+	height:100px;
+	background: #074dcf;
+}
+header h1{
+    
+	color: #FFFFFF;
+	font-size:50px;
+	font-weight: bold;
+	font-family:Arial;
+	line-height: 100px;
+	margin-left: 10px;
+	float: left;
+}
+
+#redes{
+	float: right;
+	line-height: 100px;
+}
+
+#redes img{
+	margin: 10px;
+	vertical-align: middle;
+	border-radius: 100%;
+}
+
+nav{
+	background: orange;
+	height: 60px;
+}
+
+nav li{
+	list-style:none;
+	display: inline-block;
+	padding: 20px 0px;
+}
+
+nav a{
+	color: #FFFFFF;
+	font-size:20px;
+	font-weight: bold;
+	font-family: Arial;
+	text-decoration:none;
+	padding:20px;
+}
+
+nav a:hover{
+	background: #000000;
+}
+
+#banner{
+	margin:auto;
+	border:10px solid #FFFFFF;
+	margin-top:10px; 
+}
+
+#contenido{
+	float: left;
+	width: 700px;
+	background: #5f88a8;
+	border-radius:8px;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+#contenido h2{
+    font-family: Tahoma;
+    color: #FFFFFF;
+}
+
+#contenido p{
+    text-align: justify;
+    font-size: 1em;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    line-height: 1em;
+}
+
+.articles h2{
+	font-size: 40px;
+	padding: 10px;	
+	border-bottom:2px solid whitesmoke;
+}
+
+.articles img{
+	float: left;
+	margin: 10px;
+}
+
+.articles p{
+	margin-bottom: 10px;
+	margin-top:10px;
+	line-height: 15px;
+}
+
+aside{
+	float:right;
+	width: 250px;
+	background: #97a1b3;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+aside h3{
+	font-size: 24px;
+	background: #1D1919;
+	text-align: center;
+	padding: 10px;
+	color: #FFFFFF;
+}
+
+aside p{
+	padding: 10px;
+	font-size: 12px;
+	text-align: justify;
+	line-height:15px; 
+}
+
+#img-aside{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+footer{
+	height: 60px;
+	background: #2E2A2B;
+	clear: both;
+}
+
+footer p{
+	font-size: 20px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 60px;
+	font-style: Tahoma;
+}
+iframe{
+	width: 100%;
+}

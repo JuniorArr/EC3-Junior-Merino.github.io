@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dental Centro - Odontologia</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="icon">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/preloader.css">
+    <link rel="stylesheet" href="style/redes.css">
+    <link rel="stylesheet" href="style/parallax.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <script src="https://kit.fontawesome.com/4ee8af2e6c.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  
+    <div id="preloader">
+        <img src="img/preloader.gif" alt="">
+    </div>
+
+    <div id="inicio"></div>
+    <header id="header">
+        <div class="container">
+        <div id="logo">
+            <a href="#inicio">
+            <img src="img/logo.png" alt="">
+            </a>
+        </div>
+
+        <!--Barras-->
+        <label class="btn-menu" onclick="llamar()">
+            <label class="close fas fa-bars" id="menu" style="color:white;"></label>
+        </label>
+        <nav class="botonera">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contactos">Contactos</a></li>
+                <li><a href="login.html"><i class="fas fa-user"></i> Iniciar Sesion</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+  
+    <div class="banner">
+    <div class="overlay">
+        <div class="cont-banner">
+            <h2>Clinica Dental Centro</h2>
+            <p>Más de 10 años de experiencia, ofrecemos a nuestros pacientes confianza, tratamientos modernos y especializados.</p>
+        
+        </div>
+    </div>
+    </div>
+
+<!--Redes-->
+    <div id="redes">
+        <div class="social" id="twitter">
+            <a class="fab fa-twitter" href="https://www.twitter.com"></a>
+        </div>
+        <div class="social" id="facebook">
+            <a class="fab fa-facebook" href="https://www.facebook.com"></a>
+        </div>
+        <div class="social" id="youtube">
+            <a class="fab fa-youtube" href="https://www.youtube.com"></a>
+        </div>
+    </div>
+
+    <main id="nosotros">
+        <div class="text-nosotros">
+        <h3>Clinica Dental Centro</h3>
+        <hr class="linea">
+        <br>
+        <br>
+        </div>
+        <p class="parrafo">Somos un equipo de cirujanos dentistas especializados con más de 10 años de experiencia, ofrecemos a nuestros pacientes 
+            confianza, tratamientos modernos y especializados en todas nuestras áreas para el cuidado de su salud dental y estética.Nuestros clientes 
+            son para nosotros lo mas importante que existe en el mundo.</p>
+        <img src="img/cuidados.jpg" alt="" class="img-responsive">
+    </main>
+
+
+    <div class="fondo-parallax">
+        <div class="parallax">
+            <h2>Ven y te atenderemos con lo mejor...</h2>
+            <p>Especialidad dedicada a devolver la función masticatoria, restaurar y/o devolver la pérdida de dientes a través del uso de prótesis 
+                fija, removiblee e implantes para lo mejor de tu Dentadura en el mundo.</p>
+        </div>
+    </div>
+
+    <section id="galeria" class="galeria">
+
+        <article>
+            <h2>Lo Mejor par las Sonrisas de Nuestros Clientes</h2>
+            <hr class="linea">
+            <p class="parrafo">Ofrecer servicios de excelencia: Para lograr esto hemos diseñado un modelo de servicio diferenciado, basado en una cultura 
+                de tratamientos perfectos, disciplina, profesionalismo y diagnósticos acertados, logrando así la total satisfacción de nuestros pacientes.
+            </p>
+        </article>
+
+        <article style="display: flex; align-self: center;">
+            <input type="submit" value="<<" onclick="atras()">
+
+            <img src="img/img01.jpg" alt="" id="img" class="img-section">
+
+            <input type="submit" value=">>" onclick="adelante()">
+        </article>
+    </section>
+
+    <script src="funciones/script.js"></script>
+    
+<!--Contactanos-->
+    <div class="fondo-contactos" id="contactos">
+        <div class="text-contactos">
+            <h3>CONTÁCTANOS</h3>
+            <hr class="linea">
+        </div>
+        <div class="contactos">
+            <div class="contact">
+                <h3>UBICANOS EN:</h3>
+                <ul class="listas">
+                    <li> Direccion: Av. Las Palmeras 3896, Los Olivos 15301.</li>
+                    <li>Telefono: (01)5226313</li>
+                    <li>Celular: 987898256</li>
+                    <li>Whatsapp: 987898256</li>
+                    <li>Info: dentalcenter@hotmail.com</li>
+                </ul>
+            </div>
+            <div class="contact">
+                <div class="formulario">
+                    <h2>Dejanos un Mensaje</h2>
+                    <form action="">
+                        <p>Apellidos y Nombres</p>
+                        <input type="text" placeholder="Ingresa tu nombres">
+                        <br>
+                        <p>Correo Electronico</p>
+                        <input type="email" placeholder="Ingresa tu Email">
+                        <br>
+                        <p>Celular</p>
+                        <input type="text" placeholder="Ingresa tu Celular">
+                        <br>
+                        <p>Escribenos</p>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <br>
+                        <input id="btnenviar" type="submit" value="Enviar">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mapa">
+        <h2 style="text-align: center;">NUESTRO MAPA</h2>
+        <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15611.14704589642!2d-77.08217038747304!3d-11.989251799999991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105ce5b091f8759%3A0xfdbf3dd7b1a26c9f!2sCentro%20Dental!5e0!3m2!1ses!2spe!4v1658118338491!5m2!1ses!2spe" 
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    
+<!--boton subir-->
+<a class="fas fa-solid fa-circle-chevron-up" id="subir" href="#inicio"></a>
+
+<!--Footer-->
+<div class="fondo-footer">
+    <div class="footer">
+        <footer style="align-content: center;text-align: center;">
+            <img src="img/logo.png" alt="" width="100px">
+            <h3>Dental Centro 2022</h3>
+            <h4>SIGUENOS EN:</h4>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+        </footer>
+        <footer>
+            <h3>HORARIO DE ATENCIÓN</h3>
+            <hr class="linea">
+            <br> 
+            <p>Todos los Dias -     9:00 am - 9:00pm</p>
+            <br>
+            <p>Lunes a Viernes -    9:00 am - 9:00pm</p>
+            <br>
+            <p>Sábados y Domingos - 9:00 am - 5:00pm</p>
+        </footer>
+        <footer>
+            <h3>CONTÁCTANOS EN:</h3>
+            <hr class="linea">
+            <br>
+            <ul class="direcciones">
+                <li>Av. Las Palmeras 3896, Los Olivos.</li>
+                <li>Celular: 987898256</li>
+                <li>Correo: dentalcenter@hotmail.com</li>
+            </ul>
+        </footer>
+    </div>
+</div>
+<div class="fondo-cierre">
+    <div class="cierre">
+        <p>Creado por &copy; Junior Merino</p>
+    </div>
+</div>
+</body>
+</html>

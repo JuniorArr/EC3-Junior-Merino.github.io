@@ -1,0 +1,197 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: whitesmoke;
+}
+
+
+header{
+	width:1000px;
+	height:120px;
+	padding:10px;
+	background:#bbb9b7;
+	margin: auto;
+	position:relative;
+}
+
+#redes{
+	float: right;
+	line-height: 100px;
+	height: 10px;
+	
+}
+#redes img{
+	margin: 10px;
+	vertical-align:100%;
+	border-radius: 100%;
+	
+}
+
+h1{
+	color: #FFFFFF;
+	padding-left:150px;
+	text-transform: uppercase;
+	font-family:Calibri;
+	position:absolute;
+	font-size:45px;
+}
+header h3{
+    color: #FFFFFF;
+	padding-left:150px;	
+	font-family:Calibri;
+	position:absolute;
+	font-size:28px;
+}
+
+#logo{
+	position: absolute;
+	padding-left:50px;
+	cursor:pointer;
+}
+
+#enlaces{
+	width: 1000px;
+	margin: auto;
+	background: rgb(44, 179, 78);
+	text-align: center;
+	font-family: Tahoma;
+}
+
+#enlaces li{
+	display: inline-block;
+}
+
+#enlaces a{
+	text-decoration:none;
+	color: #FFFFFF;
+	padding: 20px;
+	display: block;
+}
+
+#enlaces a:hover{
+	background: #000000;
+	color:#FFF500;
+}
+
+section{
+	width:1000px;
+	padding:10px;
+	margin:auto;
+	background:#2183df;
+	overflow: hidden;
+	line-height:150%;
+	font-family:Tahoma; 
+	color: #ffffff;
+}
+
+.top li{
+	list-style: none;
+	width: 316px;
+	float: left;
+	padding-right:10px; 
+}
+
+.top{
+	width:950px;
+	margin: auto;
+}
+
+.img-top{
+	width:100%;
+}
+
+h2{
+	font-family: Arial black;
+	color: orange;
+	margin-bottom:10px;
+	text-align: center;
+}
+
+.img-inicio{
+	width: 100%;
+}
+
+footer{
+	clear: both;
+	width: 1000px;
+	padding:10px;
+	margin: auto;
+	background: #000000;
+	background:#4C3518;
+	text-align: center;
+	font-family: Tahoma;
+	color: #FFFFFF;
+}
+
+h3{
+	color:#ffffff;
+	padding-bottom:10px;
+}
+
+#contenedor{
+	width:100%;
+	overflow: hidden;
+	padding:10px;
+	color: #FFFFFF;
+	background:#2fb345;
+}
+
+#article{
+	width:500px;
+	float: left;
+	text-align: justify;
+}
+
+aside{
+	width:400px;
+	float: right;
+	text-align:justify;
+}
+
+.img-aside{
+	border-radius:50%;
+}
+
+table{
+	border:2px solid orange;
+	width:600px;
+	margin:auto;
+	text-align: center;
+}
+
+table td{
+	border:1px solid orange;
+	padding:10px;
+}
+
+div h3{
+	text-align: center;
+	font-size: 30px;
+}
+
+#referencias{
+	text-align: center;
+	margin-top: 20px;
+	font-family: Tahoma;
+}
+
+#referencias ul{
+	list-style:none; 
+}
+
+#referencias li{
+	display: inline;
+}
+
+#referencias a{
+	text-decoration:none;
+	color:#FFFD00;
+}
+iframe{
+	width: 100%;	
+	height: 500px;
+}

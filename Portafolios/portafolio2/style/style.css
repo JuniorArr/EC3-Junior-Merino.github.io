@@ -1,0 +1,138 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background:rgb(103, 125, 167);
+	padding: 20px;
+}
+
+header{
+	max-width: 1000px;
+	min-height: 130px;	
+    background: #949090e3;  
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d3d3d3',GradientType=0 );
+	margin: 0 auto;
+	border-radius: 20px 20px 0 0;
+}
+
+#menu1{
+	max-width: 1000px;
+	min-height: 50px;
+	background: #3e58e9;
+	margin: 0 auto;
+}
+
+#menu1 ul{
+	list-style:none;
+	display:flex;
+	justify-content: center;
+}
+
+#menu1 a{
+	color: #FFFFFF;
+	display: block;
+	padding: 20px;
+	text-decoration:none;
+	background: #3e58e9;
+	font-family: Arial;
+	font-size: 18px;
+}
+
+#menu1 a:hover{
+	background: #069;
+}
+
+#menu1 ul ul{
+	display: none;
+	position: absolute;
+}
+
+#menu1 ul li:hover ul{
+	display:block;
+}
+
+#SigoBanner{
+	margin: 0 auto;
+	background:#FFFFFF;
+    max-width: 1000px;
+	min-height: 250px;
+	margin-top:10px;
+}
+
+#contenedor{
+	max-width: 1000px;
+	min-height: 100px;
+	margin: 0 auto;
+	background: #FFFFFF;
+}
+
+#menu-v{
+	min-height: 700px;
+	width: 300px;
+	background: #979494;
+	float: left;
+}
+#menu-v ul{
+	list-style: none;
+	padding: 15px;
+}
+
+#menu-v a{
+	display: block;
+	padding:10px;
+	background: #000000;
+	color: #FFFFFF;
+	text-decoration:none;
+	margin-bottom: 8px;
+	border-radius: 5px;
+	font-family: Arial;
+	font-size: 20px;
+}
+
+#menu-v a:hover{
+	background: #323656;
+}
+
+#contenido{
+	width: 700px;
+	min-height: 700px;
+	background: #E4E1E1;
+	float: right;
+	padding: 15px;
+	box-sizing: border-box;
+	
+}#contenido h2{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#contenido p{
+	margin-bottom:20px;
+	font-family: Arial;
+	font-size: 18px;
+	text-align: justify;
+}
+
+.Publicidad{
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	width: 250px;
+	border:1px solid #ccc;
+	padding: 5px;
+}
+
+footer{
+	background: #e9900b;
+	max-width: 1000px;
+	min-height: 130px;
+	margin: 0 auto;
+	border-radius:0 0 20px 20px;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 30px;
+	box-sizing: border-box;
+	font-family:Arial;
+	font-size: 18px;
+}

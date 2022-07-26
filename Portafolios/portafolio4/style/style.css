@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Tahoma;
+    background: darkgray;
+}
+
+header{
+    width: 1000px;
+    background: rgb(47, 146, 163);
+    margin: auto;
+    overflow: hidden;
+}
+
+#logo img{
+    float: left;
+}
+
+#redes img{
+    float: right;
+    margin-top: 50px;
+    margin-right: 15px;
+    width: 40px;
+}
+
+/*Estilos del NAV "BOTONERA"*/
+#botonera{
+    width: 1000px;
+    margin: auto;
+    background: darkblue;
+}
+
+#botonera p{
+    padding: 15px;
+    color:white;
+}
+
+#botonera ul{
+    list-style: none;
+}
+
+#botonera li{
+    display: inline-block;
+}
+
+#botonera a{
+    text-decoration: none;
+    color: whitesmoke;
+    display: block;
+    padding: 20px;    
+}
+
+#botonera a:hover{
+    background: rgb(62, 149, 199);
+}
+
+main img{
+    width: 1000px;
+    margin: auto;
+    display: block;    
+}
+
+section{
+    width: 1000px;
+    margin: auto;
+    background: rgb(159, 151, 196);
+    overflow: hidden;
+    padding: 15px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;    
+}
+
+img{
+    margin-top: 15px;
+}
+
+/*Estilos para Cajas */
+.caja{
+    width: 300px;
+    background: ghostwhite;
+    padding: 10px;
+    margin: 91px;
+    display: inline-block;
+}
+
+.caja img{
+    width: 100%;
+}
+
+button{
+    width: 100%;
+    background: gray;
+    border: 0px;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+}
+/*Estilos para Registros*/
+
+#linea{
+	color:#666666;
+	margin-bottom:30px;
+	border-bottom:solid 1px #fff;
+	padding-bottom:5px;
+}
+
+#label{
+	display:block;
+	font-weight:bold;
+	width:240px;
+	font-size:12px;
+}
+
+/*Estilos para Contactos*/
+h1{
+    text-align: center;
+    font-family: Tahoma;
+    background-color: gold;
+    margin-bottom: 10px;
+}
+.formulario{
+    background: grey;
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px;
+}
+.formulario p{
+    font-size: 18px;
+    color: orange;
+}
+input[type="text"], input[type="email"], input[type="number"], input[type="url"]{
+    width: 100%;
+    height: 35px;
+    margin: 10px 0px;   
+}
+input[type="submit"], input[type="reset"]{
+	display: inline-block;
+	margin: 50px;
+	width: 130px;
+	height: 40px;
+	color: black;	
+	border: 0;
+}
+select{
+    width: 100%;
+    height: 35px;
+    margin: 10px 0px;
+}
+textarea{
+    width: 100%;
+    margin: 10px 0px;
+}   
+
+/*Estilos para el Footer*/
+footer{
+    width: 1000px;
+    margin: auto;
+    background: darkblue;
+    color: orange;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+}
+
+#botonera-ftr{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#botonera-ftr ul{
+    list-style: none;
+}
+
+#botonera-ftr li{
+    display: inline-block;
+}
+
+#botonera-ftr a{
+    text-decoration: none;
+    color: orange;
+}
+
